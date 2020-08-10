@@ -11,4 +11,5 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:4.8.1'
     testImplementation 'junit:junit:4.13'
     testImplementation 'com.ringcentral:ringcentral:1.4.0'
+    testImplementation 'io.github.cdimascio:java-dotenv:5.2.1'
 }
