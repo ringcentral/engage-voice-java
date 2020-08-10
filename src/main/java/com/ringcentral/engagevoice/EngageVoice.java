@@ -12,15 +12,15 @@ public class EngageVoice {
 
     public EngageVoice(String server, OkHttpClient httpClient) {
         this.server = server;
-        if(httpClient == null) {
-
+        if (httpClient == null) {
+            this.httpClient = new OkHttpClient();
         } else {
             this.httpClient = httpClient;
         }
     }
 
     public EngageVoice(String server) {
-       this(server, null);
+        this(server, null);
     }
 
     public EngageVoice() {
@@ -39,9 +39,5 @@ public class EngageVoice {
             throw new RestException(response, request);
         }
         return Utils.gson.fromJson(response.body().string(), EngageVoiceToken.class);
-    }
-
-    public boolean someLibraryMethod() {
-        return true;
     }
 }
