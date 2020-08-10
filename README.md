@@ -1,5 +1,8 @@
 # RingCentral Engage Voice SDK
 
+[![Download](https://api.bintray.com/packages/tylerlong/maven/ringcentral-engage-voice/images/download.svg)](https://bintray.com/tylerlong/maven/ringcentral-engage-voice/_latestVersion)
+
+
 ## Installation
 
 This SDK assumes that you have a RingCentral token. You can use [RingCentral Java SDK](https://github.com/ringcentral/ringcentral-java) to get a RingCentral token. Please install it first, here is its [installation instructions](https://github.com/ringcentral/ringcentral-java#installation).
