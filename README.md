@@ -74,3 +74,9 @@ ResponseBody responseBody = engageVoice.get("/voice/api/v1/admin/accounts");
 ```
 ./gradlew test
 ```
+
+### Publish
+
+```
+./gradlew -PbintrayUser=xxx -PbintrayApiKey=xxx bintrayUpload
+```

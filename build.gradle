@@ -1,5 +1,8 @@
 plugins {
     id 'java-library'
+    id 'com.jfrog.bintray' version '1.8.4'
+    id 'maven'
+    id 'maven-publish'
 }
 
 group 'com.ringcentral'
